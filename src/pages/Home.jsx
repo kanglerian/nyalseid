@@ -1,5 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Lottie from 'lottie-react';
 import AsepPhoto from '../assets/images/asep.png'
 import DikiPhoto from '../assets/images/diki.png'
 import NabilaPhoto from '../assets/images/nabila.jpeg'
@@ -10,18 +11,40 @@ import RamonaLogo from '../assets/images/ramona.png'
 import HackrativeLogo from '../assets/images/hackrative.png'
 import DsdsLogo from '../assets/images/dsds.png'
 import PempekLogo from '../assets/images/pempek.png'
+import ServerAnimate from '../assets/animations/server.json'
+import ReactLogo from '../assets/react.svg'
 import { faCpanel, faDocker, faFacebook, faInstagram, faJs, faLaravel, faLinux, faNodeJs, faPhp, faReact, faTiktok, faWindows } from '@fortawesome/free-brands-svg-icons'
 
 const Home = () => {
   return (
     <main className='flex flex-col items-center justify-center'>
+      <section className='w-full flex flex-col items-center justify-center py-14 h-screen bg-gray-100'>
+        <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-5 mx-auto items-center max-w-5xl'>
+          <div className='space-y-5 px-5 md:px-0'>
+            <a href="#" className='flex items-center gap-3'>
+              <img src={ReactLogo} alt="" />
+              <span className='font-bold text-2xl'>SilenaID 🇮🇩</span>
+            </a>
+            <div className='space-y-3'>
+              <h2 className='font-bold text-3xl'>Solution For Your Systems</h2>
+              <p className='text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officia aut similique reiciendis neque fugit quasi quos ratione ipsa quo.</p>
+              <a href='https://wa.me/6285318557284' className='inline-block bg-gray-800 hover:bg-gray-900 text-white px-4 py-2.5 text-sm rounded-xl'>Let's collaborate!</a>
+            </div>
+          </div>
+          <div>
+            <div className='flex items-center justify-center w-full h-full'>
+              <Lottie animationData={ServerAnimate} loop={true} />
+            </div>
+          </div>
+        </div>
+      </section>
       <section className='w-full py-14 bg-gray-900'>
         <div className='w-full mx-auto max-w-5xl'>
-          <header className='text-center space-y-1 mb-10'>
+          {/* <header className='text-center space-y-1 mb-10'>
             <h2 className='font-bold text-gray-100 text-2xl'>Stack of Technologies</h2>
             <p className='text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, explicabo.</p>
-          </header>
-          <div className="flex flex-wrap items-center justify-center gap-4 text-white">
+          </header> */}
+          <div className="flex flex-wrap items-center justify-center gap-5 md:gap-10 text-white">
             <FontAwesomeIcon icon={faLaravel} size='4x' />
             <FontAwesomeIcon icon={faReact} size='4x' />
             <FontAwesomeIcon icon={faNodeJs} size='4x' />
@@ -97,9 +120,9 @@ const Home = () => {
         <div className='w-full mx-auto max-w-5xl space-y-10'>
           <div className='flex flex-col md:flex-row items-center justify-center gap-10'>
             <div className='w-full md:w-1/3 bg-white h-44 rounded-2xl space-y-4'>
-              <a href="#" className='block'><img src={GatherLogo} alt="" className='h-7' /></a>
+              <a href="https://app.gather.town/invite?token=ovQqpAeVRoOE3vHHYBmo" target='_blank' className='block'><img src={GatherLogo} alt="" className='h-7' /></a>
               <div className='space-y-1'>
-                <h2 className='flex items-center gap-2 font-bold text-xl text-gray-900'>Virtual Office</h2>
+                <a href="https://app.gather.town/invite?token=ovQqpAeVRoOE3vHHYBmo" target='_blank' className='inline-block flex items-center gap-2 font-bold text-xl text-gray-900'>Virtual Office</a>
                 <p className='text-sm text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quis.</p>
               </div>
               <div className='flex items-center gap-2 text-gray-600'>
