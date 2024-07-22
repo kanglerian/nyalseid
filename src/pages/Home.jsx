@@ -22,12 +22,12 @@ const Home = () => {
         <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-5 mx-auto items-center max-w-5xl'>
           <div className='space-y-5 px-5 md:px-0'>
             <a href="#" className='flex items-center gap-3'>
-              <img src={ReactLogo} alt="" />
+              {/* <img src={ReactLogo} alt="" /> */}
               <span className='font-bold text-2xl'>SilenaID 🇮🇩</span>
             </a>
             <div className='space-y-3'>
-              <h2 className='font-bold text-3xl'>Solution For Your Systems</h2>
-              <p className='text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officia aut similique reiciendis neque fugit quasi quos ratione ipsa quo.</p>
+              <h2 className='font-bold text-3xl'>Your Partner for Web Applications</h2>
+              <p className='text-gray-700 text-base leading-relaxed'>Discover SilenaID, where we specialize in crafting effective web applications to enhance your business. From initial concept to seamless integration, our team ensures your systems perform at their best. Step into the future with SilenaID and see how we can elevate your digital presence.</p>
               <a href='https://wa.me/6285318557284' className='inline-block bg-gray-800 hover:bg-gray-900 text-white px-4 py-2.5 text-sm rounded-xl'>Let's collaborate!</a>
             </div>
           </div>
@@ -39,11 +39,7 @@ const Home = () => {
         </div>
       </section>
       <section className='w-full py-14 bg-gray-900'>
-        <div className='w-full mx-auto max-w-5xl'>
-          {/* <header className='text-center space-y-1 mb-10'>
-            <h2 className='font-bold text-gray-100 text-2xl'>Stack of Technologies</h2>
-            <p className='text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, explicabo.</p>
-          </header> */}
+        <div className='w-full mx-auto max-w-5xl px-5 md:px-0'>
           <div className="flex flex-wrap items-center justify-center gap-5 md:gap-10 text-white">
             <FontAwesomeIcon icon={faLaravel} size='4x' />
             <FontAwesomeIcon icon={faReact} size='4x' />
@@ -58,7 +54,41 @@ const Home = () => {
         </div>
       </section>
       <section className='w-full py-14 bg-slate-50'>
-        <div className='w-full mx-auto max-w-5xl'>
+        <div className='w-full mx-auto max-w-5xl px-5 md:px-0'>
+          <header className='text-center space-y-1 mb-10'>
+            <h2 className='font-bold text-gray-800 text-2xl'>Products</h2>
+            <p className='text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quisquam!</p>
+          </header>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <div className='flex flex-col justify-center items-center gap-4 bg-white border md:border-none border-gray-200 md:shadow-lg rounded-3xl p-5'>
+              <img src={ReactLogo} alt="Asep Manarul Hidayah" />
+              <div className='text-center space-y-3 px-5'>
+                <h2 className='font-bold text-gray-800 text-lg'>E-Invitation Wedding</h2>
+                <p className='text-gray-600 leading-relaxed'>Our invitation system for the most important event in your life.</p>
+                <button type='button' className='inline-block text-gray-700 border border-gray-300 hover:border-gray-900 hover:bg-gray-800 hover:text-white transition ease-in-out px-5 py-2.5 rounded-xl text-sm'>More detail</button>
+              </div>
+            </div>
+            <div className='flex flex-col justify-center items-center gap-4 bg-white border md:border-none border-gray-200 md:shadow-lg rounded-3xl p-5'>
+              <img src={ReactLogo} alt="Asep Manarul Hidayah" />
+              <div className='text-center space-y-3 px-5'>
+                <h2 className='font-bold text-gray-800 text-lg'>E-Finance</h2>
+                <p className='text-gray-600 leading-relaxed'>An application for managing cash or all about finance.</p>
+                <button type='button' className='inline-block text-gray-700 border border-gray-300 hover:border-gray-900 hover:bg-gray-800 hover:text-white transition ease-in-out px-5 py-2.5 rounded-xl text-sm'>More detail</button>
+              </div>
+            </div>
+            <div className='flex flex-col justify-center items-center gap-4 bg-white border md:border-none border-gray-200 md:shadow-lg rounded-3xl p-5'>
+              <img src={ReactLogo} alt="Asep Manarul Hidayah" />
+              <div className='text-center space-y-3 px-5'>
+                <h2 className='font-bold text-gray-800 text-lg'>Helpdesk ICT</h2>
+                <p className='text-gray-600 leading-relaxed'>An application real-time chats for information helpdesk.</p>
+                <button type='button' className='inline-block text-gray-700 border border-gray-300 hover:border-gray-900 hover:bg-gray-800 hover:text-white transition ease-in-out px-5 py-2.5 rounded-xl text-sm'>More detail</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='w-full py-14 bg-slate-50'>
+        <div className='w-full mx-auto max-w-5xl px-5 md:px-0'>
           <header className='text-center space-y-1 mb-10'>
             <h2 className='font-bold text-gray-800 text-2xl'>Our Great Team</h2>
             <p className='text-gray-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quisquam!</p>
