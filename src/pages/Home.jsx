@@ -184,7 +184,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <p className='text-xs py-2 text-center text-slate-700'>Copyright © 2024 Silena Indonesia 🇮🇩</p>
+          <p className='text-xs py-2 text-center text-slate-700'>Copyright © 2024 Nyalse Indonesia 🇮🇩</p>
         </div>
       </section>
     </main>
