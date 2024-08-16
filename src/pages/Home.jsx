@@ -23,11 +23,11 @@ const Home = () => {
           <div className='space-y-5 px-5 md:px-0'>
             <a href="#" className='flex items-center gap-3'>
               {/* <img src={ReactLogo} alt="" /> */}
-              <span className='font-bold text-2xl'>SilenaID 🇮🇩</span>
+              <span className='font-bold text-2xl'>NyalseID 🇮🇩</span>
             </a>
             <div className='space-y-3'>
               <h2 className='font-bold text-3xl'>Your Partner for Web Applications</h2>
-              <p className='text-gray-700 text-base leading-relaxed'>Discover SilenaID, where we specialize in crafting effective web applications to enhance your business. From initial concept to seamless integration, our team ensures your systems perform at their best. Step into the future with SilenaID and see how we can elevate your digital presence.</p>
+              <p className='text-gray-700 text-base leading-relaxed'>Discover NyalseID, where we specialize in crafting effective web applications to enhance your business. From initial concept to seamless integration, our team ensures your systems perform at their best. Step into the future with NyalseID and see how we can elevate your digital presence.</p>
               <a href='https://wa.me/6285318557284' className='inline-block bg-gray-800 hover:bg-gray-900 text-white px-4 py-2.5 text-sm rounded-xl'>Let's collaborate!</a>
             </div>
           </div>
