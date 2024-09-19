@@ -122,13 +122,13 @@ const Home = () => {
                 <p className='text-gray-600 text-sm'>Chief Technology Officer & Founder</p>
               </div>
             </div>
-            {/* <div className='flex flex-col justify-center items-center gap-4'>
+            <div className='flex flex-col justify-center items-center gap-4'>
               <img src={LerianPhoto} alt="Lerian Febriana" className='rounded-full w-28 h-28 border-4 border-slate-300' />
               <div className='text-center space-y-1'>
                 <h2 className='font-bold text-gray-800'>Lerian Febriana</h2>
                 <p className='text-gray-600 text-sm'>Chief Technology Officer & Founder</p>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
